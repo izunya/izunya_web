@@ -1,4 +1,4 @@
-console.log("Main Homepage Opened")
+console.log("Hidden Homepage Opened")
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
@@ -15,9 +15,9 @@ document.querySelectorAll('.b_list button').forEach(function (button) {
         this.style.border = '5px solid ' + getRandomColor();
     });
     button.addEventListener('mouseout', function () {
-        this.style.border = '3px solid white';
+        this.style.border = '3px solid black';
     });
     button.addEventListener('click', function () {
-        this.style.border = '3px solid white';
+        this.style.border = '3px solid black';
     })
 });
