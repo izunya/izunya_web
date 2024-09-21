@@ -1,5 +1,10 @@
 console.log("Hidden Homepage Opened")
 
+location.href = "https://x.com/Tizuna_VR";
+
+
+redirect();
+
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
@@ -15,9 +20,9 @@ document.querySelectorAll('.b_list button').forEach(function (button) {
         this.style.border = '5px solid ' + getRandomColor();
     });
     button.addEventListener('mouseout', function () {
-        this.style.border = '3px solid black';
+        this.style.border = '3px solid white';
     });
     button.addEventListener('click', function () {
-        this.style.border = '3px solid black';
+        this.style.border = '3px solid white';
     })
 });
