@@ -1,8 +1,8 @@
 console.log("Hidden Homepage Opened")
 
-location.href = "https://x.com/Tizuna_VR";
-
-
+function redirect() {
+    document.location.href = "https://x.com/Tizuna_VR"
+}
 redirect();
 
 function getRandomColor() {
