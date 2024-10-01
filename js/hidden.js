@@ -1,10 +1,5 @@
 console.log("Hidden Homepage Opened")
 
-function redirect() {
-    document.location.href = "https://x.com/Tizuna_VR"
-}
-redirect();
-
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
