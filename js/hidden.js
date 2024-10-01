@@ -9,6 +9,7 @@ function getRandomColor() {
     return color;
 }
 
+
 // 모든 버튼 요소에 대한 이벤트 핸들러 등록
 document.querySelectorAll('.b_list button').forEach(function (button) {
     button.addEventListener('mouseover', function () {
